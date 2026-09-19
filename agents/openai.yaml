@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Review"
+  short_description: "Review backend architecture and code quality gates"
+  default_prompt: "Use $code-review to review this backend change before delivery."
+
+policy:
+  allow_implicit_invocation: true
